@@ -1,0 +1,6 @@
+body {
+  min-height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
+  background: linear-gradient(#ff6b6b, #4ecdc4);
+  background-size: cover; /* Cover the entire viewport */
+  
+}
