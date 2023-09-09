@@ -95,7 +95,7 @@ const Home = () => {
       // Show an error toast message
       toast.error("Please fix the validation error before submitting.", {
         position: "top-right",
-        autoClose: 3000,
+        autoClose: 1000,
       });
       return; // Prevent form submission
     }

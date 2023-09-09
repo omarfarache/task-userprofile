@@ -15,12 +15,7 @@ const baseButtonStyles = {
   marginTop: 0, // Top margin
 };
 
-/**
- * ResetButtonStyled is a styled component based on the Material-UI Button component.
- *
- * @param {ButtonProps} props - The props for the Button component.
- * @returns {JSX.Element} - A styled Button component for resetting.
- */
+
 const ResetButtonStyled = styled(Button)<ButtonProps>(({ theme }) => ({
   // Apply specific styling for small screens using responsive breakpoints
   [theme.breakpoints.down("sm")]: baseButtonStyles,

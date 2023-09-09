@@ -138,7 +138,7 @@ const UserProfileUI = ({
           {/* Join Date Section */}
           <Grid item xs={12}>
             <Box>
-              <Typography variant="body2" sx={{ marginTop: 2, marginLeft: 2 }}>
+              <Typography variant="h6" sx={{ marginTop: 2, marginLeft: 2 }}>
                 {formatDate(joinDate)} 📅
               </Typography>
             </Box>
