@@ -18,17 +18,38 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Folder Structure
+```bash
+├───app                  # contain layout and page where we add pages for our app
+├───features
+│   ├───OtherFeatures    # add this empty folder just for ui vscode purpose 
+│   └───UserProfile      # logic code  
+├───public
+│   └───images
+│       └───avatars      # profile avatars
+├───shared
+│   ├───components       # components UI that can be shared in may place in our app like button , rest button ...
+│   └───utils            # utilitise can be shared in many place like date format
+├───styles               # global style
+└───ui
+    ├───OtherUI          # add this empty folder just for ui vscode purpose 
+    └───UserProfile      # pure UI components for the use profile 
+```
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Task Requirements 
+:white_check_mark: Page Layout   </br>
+:white_check_mark: MUI </br>
+:white_check_mark: Design Pattern </br>
+:white_check_mark: Validation </br>
+:white_check_mark: Responsive </br>
+:white_check_mark: Documentation </br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Other additional features
+:white_check_mark: Local Storage </br>
+:white_check_mark: Toast Alert </br>
+
 
 ## Deploy on Vercel
+Click to [Preview](https://task-userprofile.vercel.app/) the deployed site
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
